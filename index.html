@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calc</title>
+    
+</head>
+<body>
+    <form name="formcalc">
+        Number 1: <input type="text" name="txtnum1">
+        <br>
+        Number 2: <input type="text" name="txtnum2">
+        <br>
+        Result: <input type="text" name="txtres"><br>
+    
+        <input type="button" value="+" onclick="sumValues()"><br>
+        <input type="button" value="*" onclick="MultiplayValues()"><br>
+        <input type="button" value="/" onclick="DivisonValues()"><br>
+        <input type="button" value="-" onclick="SubstractionValues()"><br>
+     <select name="action">
+        <option value="CalculateSum">+</option>
+        <option selected="CalculateMultiplay">*</option>
+        <option value="CalculateDivison">/</option>
+        <option value="CalculateSubstraction">-</option><onclick="SubstractionValues()"></onclick>
+     </select>
+    </form>
+    <script src="calculator.js"></script>
+    
+</body>
+</html>
